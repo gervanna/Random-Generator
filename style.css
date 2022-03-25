@@ -3,6 +3,7 @@ body {
 }
 .container-fluid-nav{
     font-family: "Copperplate", Helvetica, sans-serif;
+    padding-left: 15px;
 }
 .card {
     margin-top: 20px;
@@ -55,7 +56,3 @@ a {
       font-size: 2rem;
     }
 }
-/* .intro-text:hover {
-    text-shadow: 3px 3px 5px rgba(128, 255, 255);
-    transform: scale(1.3);
-} */
