@@ -1,0 +1,62 @@
+body { 
+    padding-top: 90px;
+}
+.container-fluid-nav{
+    font-family: "Copperplate", Helvetica, sans-serif;
+    margin-left: 250px; /*was unable to use text-center or flex to center header - not sure why*/
+}
+.card {
+    margin-top: 20px;
+    margin-bottom: 0;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    border-radius: 30px;
+}
+.card-title {
+    font-weight: bold;
+}
+#dogImage {
+    max-width: 25rem;
+    max-height: 20rem;
+}
+#funFactImage {
+    max-width: 25rem;
+    max-height: 20rem;
+}
+.col {
+    margin-top: 20px;
+}
+a {
+    text-decoration: none;
+}
+#funFactText {
+    text-align: left;
+    text-shadow: 3px 3px 5px rgba(128, 255, 255);
+    color: #000000;
+    font-weight: 500;
+    font-size: 20px;
+    position: absolute; 
+    top: 14px; 
+    left: 25px; 
+    width: 21rem; 
+}
+.intro-text {
+    font-size: 43px;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 4px rgb(165, 157, 157);
+    animation: growth 1s;
+    animation-fill-mode: backwards;
+    font-size: 2rem;
+}
+@keyframes growth {
+    0% {
+      font-size: 0;
+    }
+    100% {
+      font-size: 2rem;
+    }
+}
+/* .intro-text:hover {
+    text-shadow: 3px 3px 5px rgba(128, 255, 255);
+    transform: scale(1.3);
+} */
