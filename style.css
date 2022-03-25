@@ -3,7 +3,6 @@ body {
 }
 .container-fluid-nav{
     font-family: "Copperplate", Helvetica, sans-serif;
-    margin-left: 250px; /*was unable to use text-center or flex to center header - not sure why*/
 }
 .card {
     margin-top: 20px;
