@@ -10,7 +10,8 @@ Hi. I'm trying to learn about APIs and figured I would also throw in some Bootst
 This application doesn't require any prerequisite setup or installation and runs in the browser. Just click the link below for the live demo: [The "Original" Random Generator](https://gervanna.github.io/random-generator/)
 
 ## Roadmap
-- [ ] Add integration for sharing on Social Media
+- [x] Added integration for sharing Fun Fact on Twitter - 26/03/22.
+- [ ] Add integration for sharing Dog picture on Twitter
 
 ## License
 This repository uses the [MIT License](https://github.com/gervanna/random-generator/blob/main/LICENSE)
